@@ -13,4 +13,6 @@
 
 Route::get('/', 'HomeController@index')->name('/');
 
-Route::get ('/cigarette', 'HomeController@cigarette')->name('cigarette');
+Route::get ('/cigarette', 'HomeController@allproducts')->name('tousLesProduits');
+
+Route::get('/produit', 'HomeController@produit')->name('produit');

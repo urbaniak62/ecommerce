@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link rel="stylesheet" href="{{asset('dist/css/foundation.css')}}"/>
         <link rel="stylesheet" href="{{asset('dist/css/app.css')}}"/>
+        <link rel="stylesheet" href="{{asset('dist/css/style.css')}}"/>
         <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
 
 
@@ -40,6 +41,8 @@
                     </li>
                     <li>
                         <a href="#">
+                                <i class="fi-torso fa-2x" aria-hidden="true">
+                                    </i>
                             CONTACT
                         </a>
                     </li>
@@ -60,27 +63,46 @@
 
 @yield('content')
 
-        <footer class="footer">
-  <div class="row full-width">
-    <div class="small-12 medium-4 large-4 columns">
-      <i class="fi-laptop"></i>
-      <p>Coded with love by Webdevmatics for educational purpose only</p>
-    </div>
-    <div class="small-12 medium-4 large-4 columns">
-      <i class="fi-html5"></i>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit impedit consequuntur at! Amet sed itaque nostrum, distinctio eveniet odio, id ipsam fuga quam minima cumque nobis veniam voluptates deserunt!</p>
-    </div>
-    
-    <div class="small-6 medium-4 large-4 columns">
-      <h4>Follow Us</h4>
-      <ul class="footer-links">
-        <li><a href="https://github.com/webdevmatics">GitHub</a></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="https://twitter.com/webdevmatics">Twitter</a></li>
-      <ul>
-    </div>
-  </div>
-</footer>
+    <footer class="footer container-fluid">
+        <div class="row ">
+            <div class="col small-12 medium-4 large-4 columns">
+                <br>
+                <i class="fi-telephone ">
+                <br><br>09 05 05 05 05</i>
+                <hr>
+                <i class="fa fa-home"><p>11 rue edouard plachez
+                <br>                     62220 CARVIN
+                <br>                     FRANCE
+                </p>
+                </i>
+           
+
+            </div>
+            <div class="col small-12 medium-4 large-4 columns">
+                <br>
+                <i class="fa fa-clock-o"><h4>Horaire d'ouverture</h4></i>
+                    <ul>
+                        <li><strong>lun.</strong> 10h00 - 19h00.</li>
+                        <li><strong>mar.</strong> 10h00 - 19h00.</li>
+                        <li><strong>mer.</strong> 10h00 - 19h00.</li>
+                        <li><strong>jeu.</strong> 10h00 - 19h00.</li>
+                        <li><strong>ven.</strong> 10h00 - 19h00.</li>
+                        <li><strong>sam.</strong> 10h00 - 19h00.</li>
+                        <li><strong>dim.</strong> fermer.</li>
+                    </ul>
+            </div>
+            
+            <div class="small-6 medium-4 large-4 columns">
+            <br>
+            <i class="fa fa-road"><h4>Nous suivre</h4></i>
+            <ul class="footer-links">
+                <li><a href="https://github.com/webdevmatics">GitHub</a></li>
+                <li><a href="#">&nbsp<i class="fa fa-facebook"> &nbsp: Facebook</i></a></li>
+                <li><a href="https://twitter.com/webdevmatics"><i class="fa fa-twitter"> : Twitter &nbsp</i></a></li>
+            <ul>
+            </div>
+        </div>
+    </footer>
 
     <script src="{{asset('dist/js/vendor/jquery.js')}}">
     <script src="{{asset('dist/js/app.js')}}">

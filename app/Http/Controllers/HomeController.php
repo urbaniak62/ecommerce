@@ -9,7 +9,10 @@ class HomeController extends Controller
     public function index(){
         return view('front.home');
     }
-    public function cigarette(){
-        return view('front.cigarette');
+    public function allproducts(){
+        return view('front.tous-les-produits');
     }
+    public function produit(){
+        return view('front.produit');
+    }   
 }

@@ -1,0 +1,45 @@
+/* home.blade */
+
+.item-wrapper{
+ box-shadow: 0px 0px 3px 2px rgb(175, 149, 149);
+}
+.item-wrapper img{
+    height: 250px;
+}
+hr{
+    padding-top: 30px;
+}
+.hero h1{
+
+    font-size: 4rem;
+
+}
+
+.subheader{
+    color: rgb(63, 58, 58);
+}
+.hero h1 strong{
+    color: aliceblue;
+    background: rgba(162, 162, 162, 0.871);
+    font-family: 'Libre Baskerville',serif;
+    
+}
+/* cigarette.blade */
+img-wrapper{
+
+    height: 250px;
+
+}
+
+/* footer */
+.footer{
+    max-width: 100%;
+}
+.footer i{
+    font-size: 20px;
+    line-height: ;
+}
+
+footer li{
+    list-style-type: none;
+}
