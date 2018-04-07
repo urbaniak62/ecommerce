@@ -48,7 +48,7 @@
                     <img src="{{asset('dist/img/liquide.jpg')}}"/>
                 </a>
             </div>
-            <a href="#">
+            <a href="{{route('produit')}}">
                 <h3>
                     azerote mécanique
                 </h3>

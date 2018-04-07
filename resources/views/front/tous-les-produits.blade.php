@@ -24,7 +24,7 @@
                     <img src="{{asset('dist/img/box-liquide.png')}}"/>
                 </a>
             </div>
-            <a href="#">
+            <a href="{{route('produit')}}">
                 <h3>
                     parfum chocolat
                 </h3>
@@ -43,7 +43,7 @@
                 <a class="button expanded add-to-cart">
                     ajouter au panier
                 </a>
-                <a href="#">
+                <a href="">
                     <img src="{{asset('dist/img/azeoth.jpg')}}"/>
                 </a>
             </div>

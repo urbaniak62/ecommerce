@@ -11,8 +11,14 @@
 |
 */
 
-Route::get('/', 'HomeController@index')->name('/');
+Route::get('/', 'FrontController@index')->name('/');
 
-Route::get ('/cigarette', 'HomeController@allproducts')->name('tousLesProduits');
+Route::get ('/cigarette', 'FrontController@allproducts')->name('tousLesProduits');
 
-Route::get('/produit', 'HomeController@produit')->name('produit');
+Route::get('/produit', 'FrontController@produit')->name('produit');
+
+Auth::routes();
+
+Route::get('/admin', 'HomeController@admin')->name('home');
+
+// Route::get('/admin', 'FrontController@admin')->name('admin');

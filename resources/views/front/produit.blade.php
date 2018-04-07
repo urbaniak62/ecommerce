@@ -7,7 +7,7 @@
             <div class="item-wrapper">
                 <div class="img-wrapper">
                     <a href="#">
-                         <img src="http://i.imgur.com/Mcw06Yt.png"/>
+                         <img src="{{asset('dist/img/azeoth.jpg')}}"/>
                     </a>
                 </div>
             </div>
@@ -15,29 +15,32 @@
         <div class="small-6 columns">
             <div class="item-wrapper">
                 <h3 class="subheader">
-                   <span class="price-tag">$20</span> Mc-Mykey Designed Shirt
+                   <span class="price-tag">19.99 euros</span> Azeroth mecanique
                 </h3>
                 <div class="row">
                     <div class="large-12 columns">
                         <label>
-                            Select Size
+                            nombre
                             <select>
-                                <option value="small">
-                                    Small
+                                <option value="0">
+                                    0
                                 </option>
-                                <option value="medium">
-                                    Medium
+                                <option value="1">
+                                    1
                                 </option>
-                                <option value="large">
-                                    Large
+                                <option value="2">
+                                    2
+                                </option>
+                                <option value="3">
+                                    3
                                 </option>
                                
                             </select>
                         </label>
-                        <a href="#" class="button  expanded">Add to Cart</a>
+                        <a href="#" class="button  expanded">Ajouter au panier</a>
                     </div>
                 </div>
-            <p class="text-left subheader"><small>* Designed by <a href="https://www.youtube.com/webdevmatics">Webdevmatics</a></small></p>
+            <p class="text-left subheader"><small>* Produit par <a href="https://urbaniak62.github.io/portfolio/"><strong>URBANIAK Nicolas</strong></a></small></p>
 
             </div>
         </div>
