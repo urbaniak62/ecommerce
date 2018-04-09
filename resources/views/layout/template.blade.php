@@ -88,7 +88,7 @@
                         <li><strong>jeu.</strong> 10h00 - 19h00.</li>
                         <li><strong>ven.</strong> 10h00 - 19h00.</li>
                         <li><strong>sam.</strong> 10h00 - 19h00.</li>
-                        <li><strong>dim.</strong> fermer.</li>
+                        <li style="color:red"><strong >dim.</strong> fermer.</li>
                     </ul>
             </div>
             
