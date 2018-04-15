@@ -18,7 +18,7 @@
     </h1>
     <br>
     <br>
-    <a href=" {{ url('/cigarette') }} ">
+    <a href=" {{ url('/vitrine') }} ">
     <button class="button large">Visiter mon site.</button>
     </a>
     
@@ -31,14 +31,15 @@
 </section>
 
 <br>
-<div class="subheader text-center"> 
-     <h2>
-    MES DERNIERES RECEPTIONS ( E-liquide).
+<div class="subheader text-center">
+    <h2>
+       <span style="font-size:0.8em"><strong style="color:rgb(236, 88, 64)">MES DERNIERES RECEPTIONS</strong><br> ( E-liquide).</span>
+     </h2> 
 </div>
 
 <!-- Latest recpection e-liquide -->
 <div class="row">
-    <div class="small-10 medium-6 large-3 columns">
+    <div class="col small-12 medium-4 large-4 columns">
         <div class="item-wrapper">
             <div class="img-wrapper ">
                 <a class="button expanded add-to-cart">
@@ -61,7 +62,7 @@
             </p>
         </div>
     </div>
-    <div class="small-10 medium-6 large-3 columns">
+    <div class="col small-12 medium-4 large-4 columns">
         <div class="item-wrapper">
             <div class="img-wrapper">
                 <a class="button expanded add-to-cart">
@@ -84,30 +85,8 @@
             </p>
         </div>
     </div>
-    <div class="small-10 medium-6 large-3 columns">
-        <div class="item-wrapper">
-            <div class="img-wrapper">
-                <a class="button expanded add-to-cart">
-                    ajouter au panier
-                </a>
-                <a href="#">
-                    <img src="{{asset('dist/img/churros.jpeg')}}"/>
-                </a>
-            </div>
-            <a href="#">
-                <h3>
-                    Cyclope
-                </h3>
-            </a>
-            <h5>
-                19.99 euro
-            </h5>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.
-            </p>
-        </div>
-    </div>
-    <div class="small-10 medium-6 large-3 columns">
+   
+    <div class="col small-12 medium-4 large-4 columns">
         <div class="item-wrapper">
             <div class="img-wrapper">
                 <a class="button expanded add-to-cart">
@@ -133,14 +112,15 @@
     <br>
     <hr>
     <br>
-<div class="subheader text-center"> 
-     <h2>
-    MES DERNIERES RECEPTIONS ( Box mecanique et electronique).
+<div class="subheader text-center">
+    <h2>
+        <span style="font-size:0.8em"><strong style="color:rgb(236, 88, 64)">MES DERNIERES RECEPTIONS</strong> <br> ( Box mecanique et electronique).</span> 
+    </h2>
 </div>
 
 <!-- Latest recpection e-liquide -->
 <div class="row">
-    <div class="small-10 medium-6 large-3 columns">
+    <div class="col small-12 medium-4 large-4 columns">
         <div class="item-wrapper">
             <div class="img-wrapper ">
                 <a class="button expanded add-to-cart">
@@ -163,7 +143,8 @@
             </p>
         </div>
     </div>
-    <div class="small-10 medium-6 large-3 columns">
+    
+    <div class="col small-12 medium-4 large-4 columns">
         <div class="item-wrapper">
             <div class="img-wrapper">
                 <a class="button expanded add-to-cart">
@@ -186,7 +167,7 @@
             </p>
         </div>
     </div>
-    <div class="small-10 medium-6 large-3 columns">
+    <div class="col small-12 medium-4 large-4 columns">
         <div class="item-wrapper">
             <div class="img-wrapper">
                 <a class="button expanded add-to-cart">
@@ -209,29 +190,7 @@
             </p>
         </div>
     </div>
-    <div class="small-10 medium-6 large-3 columns">
-        <div class="item-wrapper">
-            <div class="img-wrapper">
-                <a class="button expanded add-to-cart">
-                    ajouter au panier
-                </a>
-                <a href="#">
-                    <img src="{{asset('dist/img/tube4.png')}}"/>
-                </a>
-            </div>
-            <a href="#">
-                <h3>
-                    urbaniak
-                </h3>
-            </a>
-            <h5>
-                19.99 euro
-            </h5>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.
-            </p>
-        </div>
-    </div>
+   
 </div>
 <hr>
 </div>

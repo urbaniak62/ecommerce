@@ -10,7 +10,7 @@ class FrontController extends Controller
         return view('front.home');
     }
     public function allproducts(){
-        return view('front.tous-les-produits');
+        return view('front.vitrine');
     }
     public function produit(){
         return view('front.produit');

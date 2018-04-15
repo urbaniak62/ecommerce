@@ -13,7 +13,7 @@
 
 Route::get('/', 'FrontController@index')->name('/');
 
-Route::get ('/cigarette', 'FrontController@allproducts')->name('tousLesProduits');
+Route::get ('/vitrine', 'FrontController@allproducts')->name('vitrine');
 
 Route::get('/produit', 'FrontController@produit')->name('produit');
 
