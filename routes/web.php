@@ -11,14 +11,36 @@
 |
 */
 
+// *********************************************************************************
+//                              ROUTE FRONT CONTROLLER
+// *********************************************************************************
+
 Route::get('/', 'FrontController@index')->name('/');
 
 Route::get ('/vitrine', 'FrontController@allproducts')->name('vitrine');
 
 Route::get('/produit', 'FrontController@produit')->name('produit');
 
+Route::get('/cigarette', 'FrontController@cigarette')->name('cigarette') ;
+
+Route::get('/eliquide', 'FrontController@eliquide')->name('eliquide');
+
+Route::get('/contact', 'FrontController@contact')->name('contact');
+
+Route::get('/panier', 'FrontController@panier')->name('panier');
+
+
+
+// *********************************************************************************
+//                              ROUTE AUTH
+// *********************************************************************************
+
 Auth::routes();
 
-Route::get('/admin', 'HomeController@admin')->name('admin');
+// *********************************************************************************
+//                              ROUTE !!!! CONTROLLER
+// *********************************************************************************
 
-// Route::get('/admin', 'FrontController@admin')->name('admin');
+
+
+

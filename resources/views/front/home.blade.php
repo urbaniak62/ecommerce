@@ -24,7 +24,7 @@
     
 </section>
 
-<section class="row subheader" style="margin:3% 0 3% 28%" >
+<section class="row subheader" style="margin:2% 18.3%" >
 <h2 class="text-left">Qui sommes-nous ?</h3>
 <h4 class="text-left"><i>Vape Industry est une boutique de vape qui s’adapte a ses clients,<br>
         lieu convivial possédant un espace dégustation, <br> ainsi qu’un petit salon d’attente.</i></h4>

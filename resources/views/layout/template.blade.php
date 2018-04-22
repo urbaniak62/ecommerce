@@ -31,26 +31,26 @@
                     <div class="top-bar-right">
                         <ol class="menu">
                             <li>
-                                <a href="#">
+                                <a href="{{url('/cigarette')}}">
                                     CIGARETTE 
                                 </a>
                             </li> 
                                     
                                   
                             <li>
-                                <a href="#">
+                                <a href="{{url('/eliquide')}}">
                                     E-LIQUIDES
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="{{url('/contact')}}">
                                         <i class="fi-torso fa-2x" aria-hidden="true">
                                             </i>
                                     CONTACT
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="{{url('/panier')}}">
                                     <i class="fa fa-shopping-cart fa-2x" aria-hidden="true">
                                     </i>
                                     VOTRE PANIER :  &nbsp
@@ -67,8 +67,8 @@
 @yield('content')
 
     <footer class="footer container-fluid">
-        <div class="row justify-content-md-center">
-            <div class="col small-1 medium-4 large-4 columns">
+        <div class="row ">
+            <div class="col small-12 medium-4 large-4 columns">
                 <br>
                 <i class="fi-telephone ">
                 <br><br>09 05 05 05 05</i>
@@ -89,9 +89,9 @@
                         <li><strong>jeu.</strong> 10h00 - 19h00.</li>
                         <li><strong>ven.</strong> 10h00 - 19h00.</li>
                         <li><strong>sam.</strong> 10h00 - 19h00.</li>
-                        <li style="color:rgb(236, 88, 64)">
-                            <strong>dim.</strong>
-                        fermer.</li>
+                        <li style="color:rgb(236, 88, 64)"><strong>dim.</strong>fermer.</li>
+                            
+                        
                     </ul>
             </div>
             
@@ -99,9 +99,14 @@
             <br>
             <i class="fa fa-road"><h4>Nous suivre</h4></i>
             <ul class="footer-links">
-                <li><a href="https://github.com/webdevmatics">GitHub</a></li>
                 <li><a href="#">&nbsp<i class="fa fa-facebook"> &nbsp: Facebook</i></a></li>
                 <li><a href="https://twitter.com/webdevmatics"><i class="fa fa-twitter"> : Twitter &nbsp</i></a></li>
+                <br>
+                <br>
+                <br>
+                <br>
+                
+
             <ul>
             </div>
         </div>
