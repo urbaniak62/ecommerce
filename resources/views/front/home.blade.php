@@ -39,15 +39,14 @@
 
 <!-- Latest recpection e-liquide -->
 <div class="row">
+
+    {{----------------------FETCH DATABASE FOR RECUP PRODUCT ELIQUIDE AND FOREACH ON---}}
+    {{---------------------------------------------------------------------------------}}
+
     <div class="col small-12 medium-4 large-4 columns">
         <div class="item-wrapper">
             <div class="img-wrapper ">
-                <a class="button expanded add-to-cart">
-                   Ajouter au panier
-                </a>
-                <a href="#">
-                    <img src="{{asset('dist/img/liquide.jpg')}}"/>
-                </a>
+                <img src="{{asset('dist/img/liquide.jpg')}}"/>
             </div>
             <a href="{{route('produit')}}">
                 <h3>
@@ -62,17 +61,21 @@
             </p>
         </div>
     </div>
+    {{----------------------END FOREACH ELIQUIDE---------------------------------------}}
+    {{---------------------------------------------------------------------------------}}
+
+
+
+    {{----------------------FETCH DATABASE FOR RECUP NEWS CIGARETTE AND FOREACH ON-----}}
+    {{---------------------------------------------------------------------------------}}
+
+
     <div class="col small-12 medium-4 large-4 columns">
         <div class="item-wrapper">
             <div class="img-wrapper">
-                <a class="button expanded add-to-cart">
-                    Ajouter au panier
-                </a>
-                <a href="#">
-                    <img src="{{asset('dist/img/cookies.jpeg')}}"/>
-                </a>
+                <img src="{{asset('dist/img/cookies.jpeg')}}"/>
             </div>
-            <a href="#">
+            <a href="{{route('produit')}}">
                 <h3>
                     J-WELL
                 </h3>
@@ -85,6 +88,11 @@
             </p>
         </div>
     </div>
+
+    {{----------------------END FOREACH ELIQUIDE----------------------------------------}}
+    {{----------------------------------------------------------------------------------}}
+
+    
    
     <div class="col small-12 medium-4 large-4 columns">
         <div class="item-wrapper">
