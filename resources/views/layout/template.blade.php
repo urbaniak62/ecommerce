@@ -39,6 +39,7 @@
                                   
                             <li>
                                 <a href="{{url('/eliquide')}}">
+                                    <img src="{{asset('dist/icons/eliquide.png')}}" alt="icons" style="width:21px; height:33px;background-color:rgb(71, 82, 70)">
                                     E-LIQUIDES
                                 </a>
                             </li>
