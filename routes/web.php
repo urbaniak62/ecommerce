@@ -26,6 +26,7 @@ Route::get('/cigarette', 'FrontController@cigarette')->name('cigarette') ;
 Route::get('/eliquide', 'FrontController@eliquide')->name('eliquide');
 
 Route::get('/contact', 'FrontController@contact')->name('contact');
+Route::post('/contact', 'FrontController@create')->name('PostContact');
 
 Route::get('/panier', 'FrontController@panier')->name('panier');
 

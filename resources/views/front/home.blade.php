@@ -120,6 +120,7 @@
     <br>
     <hr>
     <br>
+    
 <div class="subheader text-center">
     <h2>
         <span style="font-size:0.8em"><strong style="color:rgb(236, 88, 64)">MES DERNIERES RECEPTIONS</strong> <br> ( Box mecanique et electronique).</span> 
@@ -202,8 +203,9 @@
 </div>
 <hr>
 </div>
+<section class="hero2"></section>
 <!-- Footer -->
-<br>
+
 
 
 

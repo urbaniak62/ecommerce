@@ -1,7 +1,9 @@
 @extends('layout.template')
 
 @section('content');
+<section class="hero text-center">
 
+</section>
 <div class="row">
         <div class="small-4 small-offset-2 columns">
             <div class="item-wrapper">

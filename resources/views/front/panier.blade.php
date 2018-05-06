@@ -1,7 +1,9 @@
 @extends('layout.template')
 
 @section('content')
+<section class="hero text-center">
 
+</section>
 <div class="subheader text-center">
     <h3><em>Detail de votre facture</em></h3>
 </div>

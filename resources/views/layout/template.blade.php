@@ -62,7 +62,7 @@
                         </ol>
                     </div>
                 </div>
-       
+                
 
 @yield('content')
 
@@ -81,7 +81,7 @@
             </div>
             <div class="col small-12 medium-4 large-4 columns">
                 <br>
-                <i class="fa fa-clock-o"><h4>Horaire d'ouverture</h4></i>
+                <i class="fa fa-clock-o"><h4>Horaire d ouverture</h4></i>
                     <ul>
                         <li><strong>lun.</strong> 10h00 - 19h00.</li>
                         <li><strong>mar.</strong> 10h00 - 19h00.</li>
@@ -105,6 +105,7 @@
                 <br>
                 <br>
                 <br>
+                
                 
 
             <ul>

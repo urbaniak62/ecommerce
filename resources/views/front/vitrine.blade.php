@@ -3,7 +3,9 @@
 @section('title', 'mes-produits')
 
 @section('content')
+<section class="hero text-center">
 
+</section>
 <br>
 <div class="subheader text-center"> 
     <h2>
