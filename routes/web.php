@@ -25,10 +25,13 @@ Route::get('/cigarette', 'FrontController@cigarette')->name('cigarette') ;
 
 Route::get('/eliquide', 'FrontController@eliquide')->name('eliquide');
 
-Route::get('/contact', 'FrontController@contact')->name('contact');
-Route::post('/contact', 'FrontController@create')->name('PostContact');
-
 Route::get('/panier', 'FrontController@panier')->name('panier');
+
+
+Route::get('/inscription','InscriptionController@index')->name('index');
+Route::post('/inscription', 'InscriptionController@inscription')->name('PostInscription');
+
+
 
 
 
@@ -36,7 +39,7 @@ Route::get('/panier', 'FrontController@panier')->name('panier');
 //                              ROUTE AUTH
 // *********************************************************************************
 
-Auth::routes();
+
 
 // *********************************************************************************
 //                              ROUTE !!!! CONTROLLER

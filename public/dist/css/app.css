@@ -1,6 +1,6 @@
 .top-bar, .top-bar ul {
     background-color:#0000;
-    border-bottom: 5px solid rgba(219, 81, 17,);;
+    border-bottom: 5px solid rgba(219, 81, 17);
 }
 
 .top-bar {
@@ -19,12 +19,16 @@ section.hero {
     height: 490px;
     background: url(../img/smoke.jpg) center center no-repeat;
     background-size: cover;
+    border-bottom: 5px solid rgb(219, 81, 17);
 }
 
 section.hero2 {
     height: 490px;
     background: url(../img/smoke2.jpg) center center no-repeat;
     background-size: cover;
+    border-top: 5px solid rgb(219, 81, 17);
+    border-bottom: 5px solid rgb(219, 81, 17);
+
 }
 
 .hero h2{

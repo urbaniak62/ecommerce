@@ -19,7 +19,7 @@
     <br>
     <br>
     <a href=" {{ url('/vitrine') }} ">
-    <button class="button large">Visiter mon site.</button>
+    <button class="button medium">Toute ma collection de produit et box.</button>
     </a>
     
 </section>

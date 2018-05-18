@@ -30,10 +30,7 @@ class FrontController extends Controller
    {
        return view('front.eliquide');
    }
-   public function contact()
-   {
-       return view('front.contact');
-   }
+   
    public function panier()
    {
        return view('front.panier');

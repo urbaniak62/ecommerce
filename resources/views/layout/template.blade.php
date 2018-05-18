@@ -43,10 +43,10 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="{{url('/contact')}}">
+                                <a href="{{url('/inscription')}}">
                                         <i class="fi-torso fa-2x" aria-hidden="true">
                                             </i>
-                                    CONTACT
+                                    INSCRIPTION
                                 </a>
                             </li>
                             <li>
