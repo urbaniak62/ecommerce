@@ -50,11 +50,11 @@
             </div>
             <a href="{{route('produit')}}">
                 <h3>
-                    azerote mécanique
+                    JUICY FRUIT
                 </h3>
             </a>
             <h5>
-                19.99 euro
+                5 euro
             </h5>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.
@@ -146,6 +146,7 @@
             </a>
             <h5>
                 19.99 euro
+
             </h5>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.
@@ -202,11 +203,13 @@
    
 </div>
 <hr>
+<<<<<<< HEAD
 </div>
 <section class="hero2"></section>
 <!-- Footer -->
 
-
-
+=======
+<br>
+>>>>>>> 5068153b5f97d2d901401e7394f32a8899032a23
 
 @endsection
