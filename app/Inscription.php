@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Inscription extends Model
 {
     protected $fillable=[
-      'name',"tel","email","password", 
+      'name',"tel","email","password,password_confirmation", 
     ];
 }

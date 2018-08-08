@@ -17,6 +17,7 @@ class InscriptionController extends Controller
             'tel'=>request('tel'),
             'email'=>request('email'),
             'password'=>request('password'),
+            'password_confirmation'=>request('password_confirmation')
             ]);
             return 'inscris' . request('name') ;
     }

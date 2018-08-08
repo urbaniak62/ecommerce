@@ -16,9 +16,10 @@ class CreateInscriptionsTable extends Migration
         Schema::create('inscription', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->string('tel');
+            $table->integer('tel');
             $table->string('email');
             $table->string('password');
+            $table->string('password_confirmation');
             $table->timestamps();
         });
     }
